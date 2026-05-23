@@ -2,25 +2,25 @@ class Pxgo < Formula
   desc "HTTP/HTTPS proxy with NTLM and Kerberos authentication"
   homepage "https://pavelsimo.github.io/pxgo"
   license "MIT"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pavelsimo/pxgo/releases/download/v0.3.0/pxgo_darwin_arm64.tar.gz"
-      sha256 "318498f0558dbd2c7c0704d61acd6dbc992af17548477da8a58ee3b4e1d8e19b"
+      url "https://github.com/pavelsimo/pxgo/releases/download/v0.4.0/pxgo_darwin_arm64.tar.gz"
+      sha256 "9501ed88423f5df56b0a824a32e1c724dfc66671cb7c2f1045a856ecbd6f14a4"
     else
-      url "https://github.com/pavelsimo/pxgo/releases/download/v0.3.0/pxgo_darwin_amd64.tar.gz"
-      sha256 "ff648e282f21fd20bf0bc8c2afaaa4bffc32dbbb55ab051e1e2d865c8e387977"
+      url "https://github.com/pavelsimo/pxgo/releases/download/v0.4.0/pxgo_darwin_amd64.tar.gz"
+      sha256 "155db67dc1a2499c770d20873fb9a103b0f734a40039429fc17b82d6d3e7c0b0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pavelsimo/pxgo/releases/download/v0.3.0/pxgo_linux_arm64.tar.gz"
-      sha256 "75b50a8d7b084548ddd4f6b6678f8fb9ac854b5356fe7fe2b06aebb7fb574a39"
+      url "https://github.com/pavelsimo/pxgo/releases/download/v0.4.0/pxgo_linux_arm64.tar.gz"
+      sha256 "a806f78f398f363b8080aafa478686e841ba5830c7befae82fbb25cb56abded5"
     else
-      url "https://github.com/pavelsimo/pxgo/releases/download/v0.3.0/pxgo_linux_amd64.tar.gz"
-      sha256 "65b0c2fe353223cc01611f21bc61e8a1120872e509111b3139ba574de89dab4f"
+      url "https://github.com/pavelsimo/pxgo/releases/download/v0.4.0/pxgo_linux_amd64.tar.gz"
+      sha256 "1506fe39fcb8068b7118fcec068365d5928b777c4c28382bab89a18bfd1a76a7"
     end
   end
 
