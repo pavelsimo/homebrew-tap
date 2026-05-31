@@ -6,8 +6,8 @@ class Ariel < Formula
 
   desc "animate Mermaid diagrams as videos with manim"
   homepage "https://pavelsimo.github.io/ariel"
-  url "https://files.pythonhosted.org/packages/source/PLACEHOLDER/ariel/ariel-0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+  sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   license "MIT"
   head "https://github.com/pavelsimo/ariel.git", branch: "main"
 
@@ -23,38 +23,38 @@ class Ariel < Formula
   # or homebrew-pypi-poet) so the virtualenv can install manim and its deps.
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/source/t/typer/typer-0.15.1.tar.gz"
-    sha256 "a0588c0a7fa68a1978a069818657778f86abe6ff5ea6abf472f940a08bfe4f0a"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/source/c/click/click-8.1.8.tar.gz"
-    sha256 "ed53c9d8821d0d0f73a36d42232736690d4d7a592c8c10c6038a29b77b15ea03"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.9.4.tar.gz"
-    sha256 "439594978a49a09530cff7ebc4b5c7103ef57baf48d5ea3184f21d9a2befa098"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/source/m/markdown-it-py/markdown_it_py-3.0.0.tar.gz"
-    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "mdurl" do
-    url "https://files.pythonhosted.org/packages/source/m/mdurl/mdurl-0.1.2.tar.gz"
-    sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/source/p/pygments/pygments-2.19.1.tar.gz"
-    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   resource "shellingham" do
-    url "https://files.pythonhosted.org/packages/source/s/shellingham/shellingham-1.5.4.tar.gz"
-    sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
+    url "https://files.pythonhosted.org/packages/cd/92/d725674355bb0b76c990bb758ec7c3a58316e3e3935a6355b39e906afc5a/ariel_mermaid-0.1.0.tar.gz"
+    sha256 "f404b3ae5ffa7e8d455f151ec9a714e1854dd5ebe2c0d9bfe7b8a0b5413a46d8"
   end
 
   def install
